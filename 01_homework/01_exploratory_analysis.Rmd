@@ -51,7 +51,7 @@ library(data.table)
 library(ggplot2)
 
 # change this to the actual path on your system
-setwd('~/Documents/NSHG_CNVs_workshop_2024/01_homework/')
+#setwd('01_homework/')
 ```
 
 

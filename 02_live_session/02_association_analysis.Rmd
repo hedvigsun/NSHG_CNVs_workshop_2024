@@ -63,7 +63,7 @@ pipeline and skip all steps related to recurrent loci to have all necessary file
 for CNValidatron.
 
 ```{r, eval = F}
-snps <- fread('/path/to/snppos_filtered.txt')
+snps <- fread('dev/snppos_filtered.txt')
 cnvs <- fread('/path/toc/nvs_filtered.txt')
 samples <- fread('/path/tol/samples_list.txt')
 
@@ -95,7 +95,7 @@ library(data.table)
 library(ggplot2)
 
 # change this to the actual path on your system
-setwd('~/Documents/NSHG_CNVs_workshop_2024/02_live_session//')
+#setwd('02_live_session/')
 ```
 
 ```{r, eval = F}
@@ -282,6 +282,7 @@ Load pre-run object.
 
 ```{r}
 genes <- fread('hg19_genes.tsv')
+
 ```
 
 
@@ -358,7 +359,7 @@ find them all.
 Load all pre-run objects we'll need
 
 ```{r}
-setwd('~/Documents/NSHG_CNVs_workshop_2024/02_live_session//')
+#setwd('~/Documents/NSHG_CNVs_workshop_2024/02_live_session//')
 # read phenotype table
 pheno <- fread('pheno.txt')
 
